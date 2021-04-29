@@ -19,7 +19,7 @@ If you find a bug in the code or an error in the documentation and want to repor
 
 Here's what you need to do before start working on the code:
 
-1. Install Node.js (0.10.22 or higher)
+1. Install Node.js (v12.18.4 or higher)
 2. Install `grunt-cli` and `karma-cli` globally
 
         npm install -g grunt-cli karma-cli
@@ -46,7 +46,7 @@ Here's what you need to do before start working on the code:
 You can build ngTagsInput with a single command:
 
     grunt pack
-    
+
 That performs all tasks needed to produce the final JavaScript and CSS files. After the build completes, a folder named `build` will be generated containing the following files:
 
     ng-tags-input.js
